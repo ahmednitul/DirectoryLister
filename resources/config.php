@@ -8,7 +8,7 @@ return array(
     'list_folders_first'        => true,
     'list_sort_order'           => 'natcasesort',
     'theme_name'                => 'bootstrap',
-    'date_format'               => 'Y-m-d H:i:s', // See: http://php.net/manual/en/function.date.php
+    'date_format'               => 'd-m-Y H:i:s', // See: http://php.net/manual/en/function.date.php
 
     // Hidden files
     'hidden_files' => array(
@@ -16,6 +16,8 @@ return array(
         '*/.ht*',
         'resources',
         'resources/*',
+        'web',
+        'web/*',
         'analytics.inc',
         'header.php',
         'footer.php'
